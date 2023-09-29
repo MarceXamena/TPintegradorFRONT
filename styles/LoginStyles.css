@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+.container {
+    margin: auto;
+    margin-top: 50px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    background-color: #7289DA; /* Color de fondo del contenedor */
+    text-align: center; /* Centra el texto dentro del contenedor */
+}
+
+.container div {
+    margin-bottom: 20px; /* Espacio entre filas */
+    text-align: left; /* Alinea el texto de las etiquetas a la izquierda */
+}
+
+.container label {
+    display: block; /* Para que el texto esté en una línea nueva, a la izquierda del input */
+}
+
+/* Centrar el formulario dentro del contenedor */
+.container form {
+    margin: 0 auto;
+}
+
+header {
+    background-color: #cef0f3;
+    color: black; /* Color del texto */
+    padding: 10px; /* Espaciado interno */
+    text-align: center; /* Alineación del texto */
+    height: 80px;
+  }
+
+header h2 {
+    font-size: 24px; /* Tamaño de fuente */
+    margin: 0; /* Elimina el margen predeterminado */
+  }
+
+  /* Estilo para el título h3 en el header */
+header h3 {
+    font-size: 18px; /* Tamaño de fuente */
+    margin: 0; /* Elimina el margen predeterminado */
+  }
+
+ul {
+    list-style: none; /* Elimina los marcadores de lista */
+    padding: 0; /* Elimina el espaciado interno predeterminado */
+  }
+
+li {
+    margin: 5px 0; /* Agrega un pequeño margen vertical entre elementos de lista */
+  }
+  
+  /* Estilo para los elementos de lista activos */
+li.active {
+    font-weight: bold; /* Hace que los elementos activos sean más visibles */
+  }
+    
+footer {
+  position: fixed;
+  background-color: #cef0f3;
+  text-align: center;
+  padding: 0;
+  left: 0; /* Asegura que el footer comience desde la izquierda de la ventana */
+  right: 0; /* Asegura que el footer termine en la derecha de la ventana */
+  bottom: 0;
+  
+}
+
+.horizontal-list {
+  display: flex;
+  text-align: center;
+  float: right;
+  padding: 0;
+  margin: 0;
+}
+
+footer div {
+  margin-right: 20px;
+  font-size: 12px;
+}
+
+.horizontal-list li {
+  margin: 0 0 10px 10px;
+}
+
+.perfil {
+    /* display: flex; */
+    height: 100px;
+    width: 100px;
+    vertical-align: top;
+    float: right;
+    margin: 0 0 30 30;
+    font-size: 11px;
+  }
+  
+  .Titulo {
+    width: 100vh;
+    padding-top: 5px;
+    height: 60px;
+    float: none;
+    background-color: #d1dcf7;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    vertical-align: middle;
+  }
+  
+  .perfil img{
+    height: 70px;
+    width: auto;
+  }
+
+  .logo {
+    display: flex;
+    width: 200px;
+    height: auto;
+    vertical-align: top;
+    float: left;
+    margin-top: 10px;
+  }

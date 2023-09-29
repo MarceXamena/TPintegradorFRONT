@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es-ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DISGORD</title>
+  <link rel="stylesheet" href="..\styles\styles.css">
+</head>
+<body>
+  <header>
+    <img src="../styles/Images/logo.jpg" alt="" class="logo">
+    <div class="perfil">
+      <iframe src="https://ibb.co/hRb29bZ" width="50" height="70" allow="autoplay"></iframe>
+      <figcaption>Nombre</figcaption>
+    </div>
+    <div class="Titulo">
+      <h2>Canal de chat</h2>
+      <h3>Programaci&oacute;n 2 - UPATECO</h3>
+    </div>
+  </header>
+  <div class="grid-container">
+    <div class="server-frame">
+      <ul class="server-list" id="serverList">
+        <li class="active"></li>
+        
+        <!-- aqui van los servidores que se obtienen con fetch-->
+      </ul>
+    </div>
+
+    <div class="room-frame">
+      <ul class="room-list">
+        <li class="active"></li>
+            <!-- aqui van las salas-->
+      </ul>
+    </div>
+
+    <div class="chat-frame">
+      <div id="message-display">
+        <div class="message-container">
+            <!--          AQUI VA EL MENSAJE QUE SE MOSTRARA EN LA SALA ACTIVA -->
+        </div>
+        <!-- aqui los mensajes del chat -->
+      </div>
+
+      <div class="message-input">
+        <input type="text" placeholder="Escribe un mensaje..." />
+        <button>Enviar</button>
+      </div>
+    </div>
+  </div>
+<footer>
+  <div>
+    <h4>Grupo Nº 6 - Integrantes:</h4>
+    <ul class="horizontal-list">
+      <li>- Argañaraz, Cesar Marcelo</li>
+      <li> - Barrionuevo, Juan Manuel</li>
+      <li> - Lutri, Nicolás Eduardo</li>
+      <li> - Xamena, Marcelo</li>
+    </ul>
+  </div>
+</footer>
+  <script src="../scripts/servers.js"></script>
+  <!--<script src="..\scripts\app.js"></script> -->
+</body>
+</html>

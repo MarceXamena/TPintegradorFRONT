@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+.form-container {
+    max-width: 430px;
+    margin: auto;
+    /* margin-bottom: 30px; */
+    background-color: #cef0f3;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.submit-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #008cba; /* Color azul */
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+.logo {
+    display: flex;
+    width: 200px;
+    height: auto;
+    vertical-align: top;
+    float: left;
+    margin-top: 10px;
+  }
+  
+header {
+    background-color: #cef0f3;
+    color: black; /* Color del texto */
+    padding: 10px; /* Espaciado interno */
+    text-align: center; /* Alineación del texto */
+    height: 80px;
+  }
+
+header h2 {
+    font-size: 24px; /* Tamaño de fuente */
+    margin: 0; /* Elimina el margen predeterminado */
+  }
+
+  /* Estilo para el título h3 en el header */
+header h3 {
+    font-size: 18px; /* Tamaño de fuente */
+    margin: 0; /* Elimina el margen predeterminado */
+  }
+
+ul {
+    list-style: none; /* Elimina los marcadores de lista */
+    padding: 0; /* Elimina el espaciado interno predeterminado */
+  }
+
+li {
+    margin: 5px 0; /* Agrega un pequeño margen vertical entre elementos de lista */
+  }
+  
+  /* Estilo para los elementos de lista activos */
+li.active {
+    font-weight: bold; /* Hace que los elementos activos sean más visibles */
+  }
+    
+footer {
+  background-color: #cef0f3;
+  text-align: center;
+  padding: 0;
+  padding-top: 3px;
+  right: 0; /* Asegura que el footer termine en la derecha de la ventana */
+  bottom: 0;
+  height: 65px;
+}
+
+.horizontal-list {
+  display: flex;
+  text-align: center;
+  float: right;
+  padding: 0;
+  margin: 0;
+}
+
+footer div {
+  margin-right: 20px;
+  font-size: 12px;
+}
+
+.horizontal-list li {
+  margin: 0 0 10px 10px;
+}
+
+.message-input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #F2F3F5;
+  /* position: fixed; */
+  bottom: 800;
+}  
+
+.perfil {
+  /* display: flex; */
+  height: 100px;
+  width: 100px;
+  vertical-align: top;
+  float: right;
+  margin: 0 0 30 30;
+  font-size: 11px;
+}
+
+.Titulos {
+  width: 100vh;
+  padding-top: 5px;
+  padding-bottom: 30px;
+  float: none;
+  background-color: #d1dcf7;
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
+  vertical-align: middle;
+  margin-bottom: 50px;
+}
+
+.perfil img{
+  height: 70px;
+  width: auto;
+}

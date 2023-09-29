@@ -1,0 +1,169 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+#message-display {
+    background-color: #F2F3F5;
+    padding: 10px;
+  }
+
+  
+.message-input input {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #CCC;
+    border-radius: 3px;
+  }
+  
+.message-input button {
+    padding: 5px 10px;
+    margin-left: 5px;
+    background-color: #7289DA;
+    color: #FFF;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+.logo {
+    display: flex;
+    width: 200px;
+    height: auto;
+    vertical-align: top;
+    float: left;
+    margin-top: 10px;
+  }
+  
+header {
+    background-color: #cef0f3;
+    color: black; /* Color del texto */
+    padding: 10px; /* Espaciado interno */
+    text-align: center; /* Alineación del texto */
+    height: 80px;
+  }
+
+header h2 {
+    font-size: 24px; /* Tamaño de fuente */
+    margin: 0; /* Elimina el margen predeterminado */
+  }
+
+  /* Estilo para el título h3 en el header */
+header h3 {
+    font-size: 18px; /* Tamaño de fuente */
+    margin: 0; /* Elimina el margen predeterminado */
+  }
+
+.workArea {
+    vertical-align: middle;
+    margin: auto;
+    margin-top: 30px;
+    background-color: #d1dcf7;
+    height: 45vh;
+    width: 120vh;
+}
+
+#canalesForm {
+    text-align: center;
+    padding: 10px;
+    background-color: #cef0f3;
+    width: 100vh;
+    margin: auto;
+    color: black;
+}
+
+.InfForm{
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+#canalesForm input {
+    margin: 5px;
+}
+
+#canalesForm button{
+    margin: 5px;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+ul {
+    list-style: none; /* Elimina los marcadores de lista */
+    padding: 0; /* Elimina el espaciado interno predeterminado */
+  }
+
+li {
+    margin: 5px 0; /* Agrega un pequeño margen vertical entre elementos de lista */
+  }
+  
+li.active {
+    font-weight: bold; /* Hace que los elementos activos sean más visibles */
+  }
+    
+footer {
+  position: fixed;
+  background-color: #cef0f3;
+  text-align: center;
+  padding: 0;
+  left: 0; /* Asegura que el footer comience desde la izquierda de la ventana */
+  right: 0; /* Asegura que el footer termine en la derecha de la ventana */
+  bottom: 0;
+  
+}
+
+.horizontal-list {
+  display: flex;
+  text-align: center;
+  float: right;
+  padding: 0;
+  margin: 0;
+}
+
+footer div {
+  margin-right: 20px;
+  font-size: 12px;
+}
+
+.horizontal-list li {
+  margin: 0 0 10px 10px;
+}
+
+.message-input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #F2F3F5;
+  /* position: fixed; */
+  bottom: 800;
+}  
+
+.perfil {
+  /* display: flex; */
+  height: 100px;
+  width: 100px;
+  vertical-align: top;
+  float: right;
+  margin: 0 0 30 30;
+  font-size: 11px;
+}
+
+.Titulo {
+  width: 100vh;
+  padding-top: 5px;
+  height: 60px;
+  float: none;
+  background-color: #d1dcf7;
+  text-align: center;
+  margin: auto;
+  margin-top: 10px;
+  vertical-align: middle;
+}
+
+.perfil img{
+  height: 70px;
+  width: auto;
+}
