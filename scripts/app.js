@@ -77,20 +77,20 @@ function getChannels(server) {
 // Función simulada para obtener los mensajes de un canal
 function getMessages(channel) {
   // Mapa de mensajes por canal
-  const messageMap = {
-    'General': ['Mensaje 1', 'Mensaje 2', 'Mensaje 3'],
-    'Noticias': ['Noticia 1', 'Noticia 2', 'Noticia 3'],
-    'Eventos': ['Evento 1', 'Evento 2', 'Evento 3'],
-    'Discusión': ['Mensaje A', 'Mensaje B', 'Mensaje C'],
-    'Proyectos': ['Proyecto X', 'Proyecto Y', 'Proyecto Z'],
-    'Soporte': ['Consulta 1', 'Consulta 2', 'Consulta 3'],
-    'Ofertas': ['Oferta A', 'Oferta B', 'Oferta C'],
-    'Ventas': ['Venta X', 'Venta Y', 'Venta Z'],
-    'Compras': ['Compra 1', 'Compra 2', 'Compra 3'],
-    'Juegos': ['Juego 1', 'Juego 2', 'Juego 3'],
-    'Música': ['Canción A', 'Canción B', 'Canción C'],
-    'Deportes': ['Deporte X', 'Deporte Y', 'Deporte Z']
-  };
+  // const messageMap = {
+  //   'General': ['Mensaje 1', 'Mensaje 2', 'Mensaje 3'],
+  //   'Noticias': ['Noticia 1', 'Noticia 2', 'Noticia 3'],
+  //   'Eventos': ['Evento 1', 'Evento 2', 'Evento 3'],
+  //   'Discusión': ['Mensaje A', 'Mensaje B', 'Mensaje C'],
+  //   'Proyectos': ['Proyecto X', 'Proyecto Y', 'Proyecto Z'],
+  //   'Soporte': ['Consulta 1', 'Consulta 2', 'Consulta 3'],
+  //   'Ofertas': ['Oferta A', 'Oferta B', 'Oferta C'],
+  //   'Ventas': ['Venta X', 'Venta Y', 'Venta Z'],
+  //   'Compras': ['Compra 1', 'Compra 2', 'Compra 3'],
+  //   'Juegos': ['Juego 1', 'Juego 2', 'Juego 3'],
+  //   'Música': ['Canción A', 'Canción B', 'Canción C'],
+  //   'Deportes': ['Deporte X', 'Deporte Y', 'Deporte Z']
+  // };
   
   // Verificar si el canal tiene mensajes definidos en el mapa
   if (channel in messageMap) {
